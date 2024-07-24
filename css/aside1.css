@@ -1,0 +1,43 @@
+.aside-1 {
+    background-color: #E7F2FF;
+}
+
+.logo {
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    gap: 40px;
+    margin-bottom: 150px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-icons {
+    width: 20px;
+}
+
+.nav-links > a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.nav-link-active > a {
+    color: #8665F1;
+}
+
+.rate {
+    width: 150px;
+    margin-left: 25px;
+}
