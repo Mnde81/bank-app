@@ -41,8 +41,10 @@ main {
 
 .cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
+    gap: 100px;
+    margin-left: 40px;
 }
 
 .card {
