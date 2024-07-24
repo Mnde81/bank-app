@@ -56,38 +56,62 @@ main {
 
 .column-1 {
     display: flex;
-    width: 300px;
-    border: 1px solid red;
+    width: 300px;   
+    gap: 15px;
+    align-items: center;
+    font-size: 14px;
+    height: 45px;
 }
 
 .td-amount {
-    width: 100px;
-    border: 1px solid red;
+    width: 100px;   
     text-align: end;
+    font-size: 14px;
 }
 
 .td-date {
-    width: 100px;
-    border: 1px solid red;
+    width: 100px;    
     text-align: end;
-
+    font-size: 14px;
 }
 
 .td-time {
-    width: 100px;
-    border: 1px solid red;
+    width: 100px;    
     text-align: end;
-
+    font-size: 14px;
 }
 
 .td-actions {
-    width: 100px;
-    border: 1px solid red;
+    width: 180px;    
     text-align: end;
+}
+
+.tbl {
+    border: none;
+    border-bottom: 1px solid #667385;
+    font-size: 12px;
+    color: #667385;
+}
+
+.table-icons {
+    width: 40px;
+    height: 40px;
 
 }
 
+.table-button {
+    border: 2px solid #8665F1;
+    color: #8665F1;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
 
+.table-button:hover {
+    background-color: #8665F1;
+    color: white;
+    cursor: pointer;
+}
 
 
 
