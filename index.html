@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bank App</title>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/aside1.css">
     <link rel="stylesheet" href="./css/aside2.css">
@@ -47,8 +48,12 @@
             <p class="hey">Hey there, Amy! <br><span>Have a great day! Good luck on your financial journey.</span></p>
             <p class="your-cards">Your cards</p>
             <div class="cards">
-                <img src="./img/card-1.png" alt="card1">
-                <img src="./img/card-2.png" alt="card2">
+                <div class="card">
+                    <p>Card 1</p>
+                </div>
+                <div class="card">
+                    <p>Card 2</p>
+                </div>
             </div>
             <p class="your-cards">Recent transactions</p>
 
@@ -64,8 +69,7 @@
                         <td class="td-date tbl">Date</td>
                         <td class="td-time tbl">Time</td>
                         <td class="td-actions tbl">Actions</td>                        
-                    </tr>
-                    
+                    </tr>                    
                     <tr>                        
                         <td>
                             <div class="column-1">
@@ -78,48 +82,56 @@
                         <td class="td-time">6:11 PM</td>
                         <td class="td-actions"><button class="table-button">Details</button></td>                        
                     </tr>
-
                     <tr>                        
                         <td>
                             <div class="column-1">
                                 <img class="table-icons" src="./img/table-icon-2.png" alt="icon2">
-                                <p>Restaurant food</p>
+                                <p>From Joe</p>
                             </div>
                         </td>
-                        <td class="td-amount">-$32.91</td>
-                        <td class="td-date">2/02</td>
-                        <td class="td-time">6:11 PM</td>
+                        <td class="td-amount green">+$100.00</td>
+                        <td class="td-date">1/02</td>
+                        <td class="td-time">1:21 PM</td>
                         <td class="td-actions"><button class="table-button">Details</button></td>                        
                     </tr>
-
                     <tr>                        
                         <td>
                             <div class="column-1">
                                 <img class="table-icons" src="./img/table-icon-3.png" alt="icon3">
-                                <p>Restaurant food</p>
+                                <p>Shopping cashback</p>
                             </div>
                         </td>
-                        <td class="td-amount">-$32.91</td>
-                        <td class="td-date">2/02</td>
-                        <td class="td-time">6:11 PM</td>
+                        <td class="td-amount green">+$4.11</td>
+                        <td class="td-date">1/02</td>
+                        <td class="td-time">11:21 AM</td>
                         <td class="td-actions"><button class="table-button">Details</button></td>                        
                     </tr>
-
                     <tr>                        
                         <td>
                             <div class="column-1">
                                 <img class="table-icons" src="./img/table-icon-4.png" alt="icon4">
-                                <p>Restaurant food</p>
+                                <p>For Tom's gift</p>
                             </div>
                         </td>
-                        <td class="td-amount">-$32.91</td>
-                        <td class="td-date">2/02</td>
-                        <td class="td-time">6:11 PM</td>
+                        <td class="td-amount">-$98.00</td>
+                        <td class="td-date">29/01</td>
+                        <td class="td-time">8:32 PM</td>
                         <td class="td-actions"><button class="table-button">Details</button></td>                        
-                    </tr>
-                   
+                    </tr>                   
                 </tbody>
-            </table>          
+            </table>
+            
+            <section class="last-section">
+                <div class="form-div">
+                    <form class="form">
+                        <input type="text" placeholder="Search transaction history..." value="">
+                        <i class="fa fa-search"></i>
+                    </form>
+                </div>
+                <button class="history-btn">See all history</button>
+                <button class="new-btn">New transfer</button>
+
+            </section>
 
            
         </div>

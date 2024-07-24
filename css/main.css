@@ -45,10 +45,17 @@ main {
     align-items: center;
 }
 
-.cards > img {
-    width: 250px;
+.card {
+    width: 240px;
+    height: 140px;
+    background-color: #687DE8;
+    border-radius: 20px;
+    color: white;
 }
 
+.card > p {
+    margin-left: 20px;
+}
 
 .content {
     margin-left: 40px;
@@ -59,26 +66,35 @@ main {
     width: 300px;   
     gap: 15px;
     align-items: center;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: bold;
     height: 45px;
 }
 
 .td-amount {
     width: 100px;   
     text-align: end;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+}
+
+.green {
+    color: #20DF9A;
 }
 
 .td-date {
     width: 100px;    
     text-align: end;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .td-time {
     width: 100px;    
     text-align: end;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .td-actions {
@@ -96,7 +112,6 @@ main {
 .table-icons {
     width: 40px;
     height: 40px;
-
 }
 
 .table-button {
@@ -113,6 +128,62 @@ main {
     cursor: pointer;
 }
 
+.last-section {
+    display: flex;
+    margin-top: 25px;
+    gap: 40px;
+}
+
+.form {   
+    position: relative;
+    margin-left: 40px;    
+}
+
+.form > input {
+    width: 382px;
+    height: 40px;
+    font-size: 14px;
+    padding: 15px 20px 15px 50px;
+    border: 2px solid #E7E9EC;
+    background-color: white;
+    border-radius: 15px;    
+    color: #9FA4B8;    
+}
+
+.form > .fa {
+    font-size: 18px;
+    line-height: 30px;
+    color: #9FA4B8;
+    position: absolute;
+    top: 6px;
+    left: 14px;
+}
+
+.history-btn {
+    border: 2px solid #8665F1;
+    color: #8665F1;
+    background-color: white;
+    padding: 5px 40px;
+    border-radius: 10px;
+}
+
+.history-btn:hover {
+    background-color: #8665F1;
+    color: white;
+    cursor: pointer;
+}
 
 
+.new-btn {
+    border: 2px solid #8665F1;
+    color: white;
+    background-color: #8665F1;
+    padding: 5px 40px;
+    border-radius: 10px;
+}
 
+.new-btn:hover {
+    background-color: white;
+    color: #8665F1;
+    cursor: pointer;
+}
